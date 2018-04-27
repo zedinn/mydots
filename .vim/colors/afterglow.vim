@@ -17,7 +17,7 @@ let g:colors_name = "afterglow"
 
 " Default GUI Colours
 let s:foreground = "d6d6d6"
-let s:background = "222222"
+let s:background = "303030"
 let s:selection = "5a647e"
 let s:line = "393939"
 let s:comment = "797979"
