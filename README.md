@@ -9,11 +9,11 @@ This repo contains my dot files.
 * tmux
 	- [x] add configuration files for tmux
 * shell
-	- [ ] add configuration files for zsh
+	- [x] add configuration files for zsh
 	- [ ] add configuration files for bash
 * etc
-	- [ ] add files for color settings
-	- [ ] add configuration files for osx-terminal (theme, colors, ...)
+	- [x] add files for color settings
+	- [x] add configuration files for osx-terminal
 
 ## Useful links for setting dot files
 * Resources
