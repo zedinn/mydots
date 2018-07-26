@@ -46,7 +46,7 @@ EQUALS = =
 CMAKE_SOURCE_DIR = /Users/Jinhong/iCloud/Workspace/mydots/.tmux/vendor/tmux-mem-cpu-load
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /Users/Jinhong/iCloud/Workspace/mydots/.tmux/vendor/tmux-mem-cpu-load
+CMAKE_BINARY_DIR = "/Users/Jinhong/Library/Mobile Documents/com~apple~CloudDocs/Workspace/mydots/.tmux/vendor/tmux-mem-cpu-load"
 
 # Utility rule file for ContinuousBuild.
 
@@ -71,6 +71,6 @@ CMakeFiles/ContinuousBuild.dir/clean:
 .PHONY : CMakeFiles/ContinuousBuild.dir/clean
 
 CMakeFiles/ContinuousBuild.dir/depend:
-	cd /Users/Jinhong/iCloud/Workspace/mydots/.tmux/vendor/tmux-mem-cpu-load && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/Jinhong/iCloud/Workspace/mydots/.tmux/vendor/tmux-mem-cpu-load /Users/Jinhong/iCloud/Workspace/mydots/.tmux/vendor/tmux-mem-cpu-load /Users/Jinhong/iCloud/Workspace/mydots/.tmux/vendor/tmux-mem-cpu-load /Users/Jinhong/iCloud/Workspace/mydots/.tmux/vendor/tmux-mem-cpu-load /Users/Jinhong/iCloud/Workspace/mydots/.tmux/vendor/tmux-mem-cpu-load/CMakeFiles/ContinuousBuild.dir/DependInfo.cmake --color=$(COLOR)
+	cd "/Users/Jinhong/Library/Mobile Documents/com~apple~CloudDocs/Workspace/mydots/.tmux/vendor/tmux-mem-cpu-load" && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/Jinhong/iCloud/Workspace/mydots/.tmux/vendor/tmux-mem-cpu-load /Users/Jinhong/iCloud/Workspace/mydots/.tmux/vendor/tmux-mem-cpu-load "/Users/Jinhong/Library/Mobile Documents/com~apple~CloudDocs/Workspace/mydots/.tmux/vendor/tmux-mem-cpu-load" "/Users/Jinhong/Library/Mobile Documents/com~apple~CloudDocs/Workspace/mydots/.tmux/vendor/tmux-mem-cpu-load" "/Users/Jinhong/Library/Mobile Documents/com~apple~CloudDocs/Workspace/mydots/.tmux/vendor/tmux-mem-cpu-load/CMakeFiles/ContinuousBuild.dir/DependInfo.cmake" --color=$(COLOR)
 .PHONY : CMakeFiles/ContinuousBuild.dir/depend
 

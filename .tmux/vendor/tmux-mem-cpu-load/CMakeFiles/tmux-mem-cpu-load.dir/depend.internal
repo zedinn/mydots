@@ -18,10 +18,10 @@ CMakeFiles/tmux-mem-cpu-load.dir/common/main.cc.o
  /Users/Jinhong/iCloud/Workspace/mydots/.tmux/vendor/tmux-mem-cpu-load/common/memory.h
  version.h
 CMakeFiles/tmux-mem-cpu-load.dir/osx/cpu.cc.o
+ /Users/Jinhong/iCloud/Workspace/mydots/.tmux/vendor/tmux-mem-cpu-load/common/cpu.h
  /Users/Jinhong/iCloud/Workspace/mydots/.tmux/vendor/tmux-mem-cpu-load/osx/cpu.cc
- common/cpu.h
 CMakeFiles/tmux-mem-cpu-load.dir/osx/memory.cc.o
+ /Users/Jinhong/iCloud/Workspace/mydots/.tmux/vendor/tmux-mem-cpu-load/common/conversions.h
+ /Users/Jinhong/iCloud/Workspace/mydots/.tmux/vendor/tmux-mem-cpu-load/common/luts.h
+ /Users/Jinhong/iCloud/Workspace/mydots/.tmux/vendor/tmux-mem-cpu-load/common/memory.h
  /Users/Jinhong/iCloud/Workspace/mydots/.tmux/vendor/tmux-mem-cpu-load/osx/memory.cc
- common/conversions.h
- common/luts.h
- common/memory.h

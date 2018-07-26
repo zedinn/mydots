@@ -3,7 +3,7 @@
 
 # Relative path conversion top directories.
 set(CMAKE_RELATIVE_PATH_TOP_SOURCE "/Users/Jinhong/iCloud/Workspace/mydots/.tmux/vendor/tmux-mem-cpu-load")
-set(CMAKE_RELATIVE_PATH_TOP_BINARY "/Users/Jinhong/iCloud/Workspace/mydots/.tmux/vendor/tmux-mem-cpu-load")
+set(CMAKE_RELATIVE_PATH_TOP_BINARY "/Users/Jinhong/Library/Mobile Documents/com~apple~CloudDocs/Workspace/mydots/.tmux/vendor/tmux-mem-cpu-load")
 
 # Force unix paths in dependencies.
 set(CMAKE_FORCE_UNIX_PATHS 1)

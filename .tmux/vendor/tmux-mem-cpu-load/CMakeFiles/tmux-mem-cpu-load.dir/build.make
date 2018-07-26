@@ -46,7 +46,7 @@ EQUALS = =
 CMAKE_SOURCE_DIR = /Users/Jinhong/iCloud/Workspace/mydots/.tmux/vendor/tmux-mem-cpu-load
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /Users/Jinhong/iCloud/Workspace/mydots/.tmux/vendor/tmux-mem-cpu-load
+CMAKE_BINARY_DIR = "/Users/Jinhong/Library/Mobile Documents/com~apple~CloudDocs/Workspace/mydots/.tmux/vendor/tmux-mem-cpu-load"
 
 # Include any dependencies generated for this target.
 include CMakeFiles/tmux-mem-cpu-load.dir/depend.make
@@ -58,8 +58,8 @@ include CMakeFiles/tmux-mem-cpu-load.dir/progress.make
 include CMakeFiles/tmux-mem-cpu-load.dir/flags.make
 
 CMakeFiles/tmux-mem-cpu-load.dir/common/main.cc.o: CMakeFiles/tmux-mem-cpu-load.dir/flags.make
-CMakeFiles/tmux-mem-cpu-load.dir/common/main.cc.o: common/main.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/Jinhong/iCloud/Workspace/mydots/.tmux/vendor/tmux-mem-cpu-load/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/tmux-mem-cpu-load.dir/common/main.cc.o"
+CMakeFiles/tmux-mem-cpu-load.dir/common/main.cc.o: /Users/Jinhong/iCloud/Workspace/mydots/.tmux/vendor/tmux-mem-cpu-load/common/main.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/Users/Jinhong/Library/Mobile Documents/com~apple~CloudDocs/Workspace/mydots/.tmux/vendor/tmux-mem-cpu-load/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/tmux-mem-cpu-load.dir/common/main.cc.o"
 	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/tmux-mem-cpu-load.dir/common/main.cc.o -c /Users/Jinhong/iCloud/Workspace/mydots/.tmux/vendor/tmux-mem-cpu-load/common/main.cc
 
 CMakeFiles/tmux-mem-cpu-load.dir/common/main.cc.i: cmake_force
@@ -82,8 +82,8 @@ CMakeFiles/tmux-mem-cpu-load.dir/common/main.cc.o.provides.build: CMakeFiles/tmu
 
 
 CMakeFiles/tmux-mem-cpu-load.dir/common/graph.cc.o: CMakeFiles/tmux-mem-cpu-load.dir/flags.make
-CMakeFiles/tmux-mem-cpu-load.dir/common/graph.cc.o: common/graph.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/Jinhong/iCloud/Workspace/mydots/.tmux/vendor/tmux-mem-cpu-load/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/tmux-mem-cpu-load.dir/common/graph.cc.o"
+CMakeFiles/tmux-mem-cpu-load.dir/common/graph.cc.o: /Users/Jinhong/iCloud/Workspace/mydots/.tmux/vendor/tmux-mem-cpu-load/common/graph.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/Users/Jinhong/Library/Mobile Documents/com~apple~CloudDocs/Workspace/mydots/.tmux/vendor/tmux-mem-cpu-load/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/tmux-mem-cpu-load.dir/common/graph.cc.o"
 	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/tmux-mem-cpu-load.dir/common/graph.cc.o -c /Users/Jinhong/iCloud/Workspace/mydots/.tmux/vendor/tmux-mem-cpu-load/common/graph.cc
 
 CMakeFiles/tmux-mem-cpu-load.dir/common/graph.cc.i: cmake_force
@@ -106,8 +106,8 @@ CMakeFiles/tmux-mem-cpu-load.dir/common/graph.cc.o.provides.build: CMakeFiles/tm
 
 
 CMakeFiles/tmux-mem-cpu-load.dir/osx/memory.cc.o: CMakeFiles/tmux-mem-cpu-load.dir/flags.make
-CMakeFiles/tmux-mem-cpu-load.dir/osx/memory.cc.o: osx/memory.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/Jinhong/iCloud/Workspace/mydots/.tmux/vendor/tmux-mem-cpu-load/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/tmux-mem-cpu-load.dir/osx/memory.cc.o"
+CMakeFiles/tmux-mem-cpu-load.dir/osx/memory.cc.o: /Users/Jinhong/iCloud/Workspace/mydots/.tmux/vendor/tmux-mem-cpu-load/osx/memory.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/Users/Jinhong/Library/Mobile Documents/com~apple~CloudDocs/Workspace/mydots/.tmux/vendor/tmux-mem-cpu-load/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/tmux-mem-cpu-load.dir/osx/memory.cc.o"
 	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/tmux-mem-cpu-load.dir/osx/memory.cc.o -c /Users/Jinhong/iCloud/Workspace/mydots/.tmux/vendor/tmux-mem-cpu-load/osx/memory.cc
 
 CMakeFiles/tmux-mem-cpu-load.dir/osx/memory.cc.i: cmake_force
@@ -130,8 +130,8 @@ CMakeFiles/tmux-mem-cpu-load.dir/osx/memory.cc.o.provides.build: CMakeFiles/tmux
 
 
 CMakeFiles/tmux-mem-cpu-load.dir/osx/cpu.cc.o: CMakeFiles/tmux-mem-cpu-load.dir/flags.make
-CMakeFiles/tmux-mem-cpu-load.dir/osx/cpu.cc.o: osx/cpu.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/Jinhong/iCloud/Workspace/mydots/.tmux/vendor/tmux-mem-cpu-load/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/tmux-mem-cpu-load.dir/osx/cpu.cc.o"
+CMakeFiles/tmux-mem-cpu-load.dir/osx/cpu.cc.o: /Users/Jinhong/iCloud/Workspace/mydots/.tmux/vendor/tmux-mem-cpu-load/osx/cpu.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/Users/Jinhong/Library/Mobile Documents/com~apple~CloudDocs/Workspace/mydots/.tmux/vendor/tmux-mem-cpu-load/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/tmux-mem-cpu-load.dir/osx/cpu.cc.o"
 	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/tmux-mem-cpu-load.dir/osx/cpu.cc.o -c /Users/Jinhong/iCloud/Workspace/mydots/.tmux/vendor/tmux-mem-cpu-load/osx/cpu.cc
 
 CMakeFiles/tmux-mem-cpu-load.dir/osx/cpu.cc.i: cmake_force
@@ -154,8 +154,8 @@ CMakeFiles/tmux-mem-cpu-load.dir/osx/cpu.cc.o.provides.build: CMakeFiles/tmux-me
 
 
 CMakeFiles/tmux-mem-cpu-load.dir/common/load.cc.o: CMakeFiles/tmux-mem-cpu-load.dir/flags.make
-CMakeFiles/tmux-mem-cpu-load.dir/common/load.cc.o: common/load.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/Jinhong/iCloud/Workspace/mydots/.tmux/vendor/tmux-mem-cpu-load/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/tmux-mem-cpu-load.dir/common/load.cc.o"
+CMakeFiles/tmux-mem-cpu-load.dir/common/load.cc.o: /Users/Jinhong/iCloud/Workspace/mydots/.tmux/vendor/tmux-mem-cpu-load/common/load.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/Users/Jinhong/Library/Mobile Documents/com~apple~CloudDocs/Workspace/mydots/.tmux/vendor/tmux-mem-cpu-load/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/tmux-mem-cpu-load.dir/common/load.cc.o"
 	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/tmux-mem-cpu-load.dir/common/load.cc.o -c /Users/Jinhong/iCloud/Workspace/mydots/.tmux/vendor/tmux-mem-cpu-load/common/load.cc
 
 CMakeFiles/tmux-mem-cpu-load.dir/common/load.cc.i: cmake_force
@@ -195,7 +195,7 @@ tmux-mem-cpu-load: CMakeFiles/tmux-mem-cpu-load.dir/osx/cpu.cc.o
 tmux-mem-cpu-load: CMakeFiles/tmux-mem-cpu-load.dir/common/load.cc.o
 tmux-mem-cpu-load: CMakeFiles/tmux-mem-cpu-load.dir/build.make
 tmux-mem-cpu-load: CMakeFiles/tmux-mem-cpu-load.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/Jinhong/iCloud/Workspace/mydots/.tmux/vendor/tmux-mem-cpu-load/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Linking CXX executable tmux-mem-cpu-load"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir="/Users/Jinhong/Library/Mobile Documents/com~apple~CloudDocs/Workspace/mydots/.tmux/vendor/tmux-mem-cpu-load/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_6) "Linking CXX executable tmux-mem-cpu-load"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/tmux-mem-cpu-load.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -216,6 +216,6 @@ CMakeFiles/tmux-mem-cpu-load.dir/clean:
 .PHONY : CMakeFiles/tmux-mem-cpu-load.dir/clean
 
 CMakeFiles/tmux-mem-cpu-load.dir/depend:
-	cd /Users/Jinhong/iCloud/Workspace/mydots/.tmux/vendor/tmux-mem-cpu-load && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/Jinhong/iCloud/Workspace/mydots/.tmux/vendor/tmux-mem-cpu-load /Users/Jinhong/iCloud/Workspace/mydots/.tmux/vendor/tmux-mem-cpu-load /Users/Jinhong/iCloud/Workspace/mydots/.tmux/vendor/tmux-mem-cpu-load /Users/Jinhong/iCloud/Workspace/mydots/.tmux/vendor/tmux-mem-cpu-load /Users/Jinhong/iCloud/Workspace/mydots/.tmux/vendor/tmux-mem-cpu-load/CMakeFiles/tmux-mem-cpu-load.dir/DependInfo.cmake --color=$(COLOR)
+	cd "/Users/Jinhong/Library/Mobile Documents/com~apple~CloudDocs/Workspace/mydots/.tmux/vendor/tmux-mem-cpu-load" && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/Jinhong/iCloud/Workspace/mydots/.tmux/vendor/tmux-mem-cpu-load /Users/Jinhong/iCloud/Workspace/mydots/.tmux/vendor/tmux-mem-cpu-load "/Users/Jinhong/Library/Mobile Documents/com~apple~CloudDocs/Workspace/mydots/.tmux/vendor/tmux-mem-cpu-load" "/Users/Jinhong/Library/Mobile Documents/com~apple~CloudDocs/Workspace/mydots/.tmux/vendor/tmux-mem-cpu-load" "/Users/Jinhong/Library/Mobile Documents/com~apple~CloudDocs/Workspace/mydots/.tmux/vendor/tmux-mem-cpu-load/CMakeFiles/tmux-mem-cpu-load.dir/DependInfo.cmake" --color=$(COLOR)
 .PHONY : CMakeFiles/tmux-mem-cpu-load.dir/depend
 

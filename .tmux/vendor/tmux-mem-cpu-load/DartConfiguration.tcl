@@ -5,7 +5,7 @@
 
 # Configuration directories and files
 SourceDirectory: /Users/Jinhong/iCloud/Workspace/mydots/.tmux/vendor/tmux-mem-cpu-load
-BuildDirectory: /Users/Jinhong/iCloud/Workspace/mydots/.tmux/vendor/tmux-mem-cpu-load
+BuildDirectory: /Users/Jinhong/Library/Mobile Documents/com~apple~CloudDocs/Workspace/mydots/.tmux/vendor/tmux-mem-cpu-load
 
 # Where to place the cost data store
 CostDataFile: 

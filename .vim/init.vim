@@ -23,7 +23,6 @@ set backspace=indent,eol,start
 set t_Co=256                                        " explicitly tell vim that the terminal has 256 colors
 set mouse=a                                         " use mouse in all modes
 set report=0                                        " always report number of lines changed
-set number                                          " show line numbers
 set ruler
 set showmatch                                       " show matching bracket
 set matchtime=2                                     " show matching breakat for 0.2 seconds
@@ -34,9 +33,9 @@ set autoindent
 set smartindent                                     " indent when
 set tabstop=4                                       " tab width
 set softtabstop=4
-"set shiftwidth=4
-"set smarttab
-"set expandtab
+set shiftwidth=4
+set smarttab
+set expandtab
 set cursorline!
 set lazyredraw
 set ttyfast
@@ -62,6 +61,7 @@ set clipboard=unnamedplus
 let NERDTreeWinPos="left"							" put NERDTree in the leftside
 let g:NERDTreeDirArrowExpandable = '▸'				" change default arrows
 let g:NERDTreeDirArrowCollapsible = '▾'				" change default arrows
+let NERDTreeIgnore=['\.pyc$', '\~$'] 				"ignore files in NERDTree
 " autocmd bufenter * if (winnr("$") == 1 && exists("b:NERDTree") && b:NERDTree.isTabTree()) | q | endif       " close vim if the only left window is NERDTree
 " autocmd vimenter * if !argc() | NERDTree | endif
 " autocmd BufWinEnter * :silent NERDTreeMirror
@@ -72,6 +72,15 @@ let g:NERDTreeDirArrowCollapsible = '▾'				" change default arrows
 "let g:neocomplete#enable_at_startup = 1             " Use neocomplete.
 "let g:neocomplete#enable_smart_case = 1             " Use smartcase
 "let g:neocomplete#sources#syntax#min_keyword_length = 3 " Set minimum syntax keyword length.
+
+
+set number                                          " show line numbers
+set relativenumber
+"augroup numbertoggle
+  "autocmd!
+  "autocmd BufEnter,FocusGained,InsertLeave * set relativenumber
+  "autocmd BufLeave,FocusLost,InsertEnter   * set norelativenumber
+"augroup END
 
 
 " TagBar setting
@@ -147,6 +156,9 @@ au BufNewFile,BufRead *.py :
 		\ set autoindent | 
 		\ set fileformat=unix | 
 
+" Flagging unnecessray whitespace
+"au BufRead,BufNewFile *.py,*.pyw,*.c,*.h match BadWhitespace /\s\+$/
+
 "let g:ycm_autoclose_preview_window_after_completion=1
 "map <leader>g  :YcmCompleter GoToDefinitionElseDeclaration<CR>
 
@@ -155,9 +167,9 @@ au BufNewFile,BufRead *.py :
 "import os
 "import sys
 "if 'VIRTUAL_ENV' in os.environ:
-"project_base_dir = os.environ['VIRTUAL_ENV']
-"activate_this = os.path.join(project_base_dir, 'bin/activate_this.py')
-"execfile(activate_this, dict(__file__=activate_this))
+	"project_base_dir = os.environ['VIRTUAL_ENV']
+	"activate_this = os.path.join(project_base_dir, 'bin/activate_this.py')
+	"execfile(activate_this, dict(__file__=activate_this))
 "EOF
 
 " display 80 characters line
@@ -166,8 +178,8 @@ match OverLength /\%81v.\+/
 set colorcolumn=80
 
 " vim start setting
-autocmd vimenter * ToggleNERDTreeAndTagbar
-autocmd tabenter * ToggleNERDTreeAndTagbar
+"autocmd vimenter * ToggleNERDTreeAndTagbar
+"autocmd tabenter * ToggleNERDTreeAndTagbar
 
 " matalb setting
 " autocmd BufEnter *.m compiler mlint
@@ -225,6 +237,8 @@ nnoremap <leader>d :YcmCompleter GoToDeclaration<CR>
 nnoremap <leader>t :YcmCompleter GetType<CR>
 nnoremap <leader>p :YcmCompleter GetParent<CR>
 
+let g:ycm_server_python_interpreter = '/usr/local/bin/python3'
+let g:ycm_path_to_python_interpreter='/opt/local/bin/python3'
 let g:ycm_python_binary_path = '/usr/local/bin/python3'
 let g:ycm_server_keep_logfiles = 1
 let g:ycm_server_log_level = 'debug'
@@ -232,4 +246,29 @@ let g:ycm_server_log_level = 'debug'
 " mundo setting
 set undofile
 set undodir=~/.vim/undo
+
+
+" EasyTags
+" Let Vim walk up directory hierarchy from CWD to root looking for tags file
+set tags=tags;/
+" Tell EasyTags to use the tags file found by Vim
+let g:easytags_dynamic_files = 1
+
+set timeoutlen=1000
+set ttimeoutlen=0
+
+" syntastic
+set statusline+=%#warningmsg#
+set statusline+=%{SyntasticStatuslineFlag()}
+set statusline+=%*
+
+"let g:syntastic_always_populate_loc_list = 1
+"let g:syntastic_auto_loc_list = 1
+"let g:syntastic_check_on_open = 0
+"let g:syntastic_check_on_wq = 1
+
+" Full config: when writing or reading a buffer, and on changes in insert and
+" normal mode (after 1s; no delay when writing).
+call neomake#configure#automake('nrwi')
+let g:neomake_open_list = 2
 

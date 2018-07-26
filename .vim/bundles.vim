@@ -20,13 +20,15 @@ Plugin 'pseewald/nerdtree-tagbar-combined'
 "Plugin 'daeyun/vim-matlab'								" a plugin for matlab
 Plugin 'MortenStabenau/matlab-vim'
 Plugin 'xolox/vim-misc'                                " for vim-easytags
-Plugin 'xolox/vim-easytags'                            " deprecated - automated tag file generation and syntax highlighting of tags in Vim
+"Plugin 'xolox/vim-easytags'                            " deprecated - automated tag file generation and syntax highlighting of tags in Vim
 Plugin 'tmhedberg/matchit'                             " extended % matching for HTML, LaTeX, and many other languages
-"Plugin 'vim-scripts/indentpython.vim'                  " python indentation
+Plugin 'vim-scripts/indentpython.vim'                  " python indentation
 Plugin 'Valloric/YouCompleteMe'
 "Plugin 'vim-syntastic/syntastic'
-"Plugin 'nvie/vim-flake8'
+Plugin 'neomake/neomake'
+Plugin 'nvie/vim-flake8'
 Plugin 'kien/ctrlp.vim'
+Plugin 'tpope/vim-fugitive'								" git integration
 "Plugin 'sjl/gundo.vim'
 
 Plugin 'vim-airline/vim-airline'

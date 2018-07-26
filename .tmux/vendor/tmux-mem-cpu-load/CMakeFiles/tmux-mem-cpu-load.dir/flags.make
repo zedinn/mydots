@@ -6,5 +6,5 @@ CXX_FLAGS =  -std=c++11 -Os -DNDEBUG
 
 CXX_DEFINES = 
 
-CXX_INCLUDES = -I/Users/Jinhong/iCloud/Workspace/mydots/.tmux/vendor/tmux-mem-cpu-load -I/Users/Jinhong/iCloud/Workspace/mydots/.tmux/vendor/tmux-mem-cpu-load/common 
+CXX_INCLUDES = -I"/Users/Jinhong/Library/Mobile Documents/com~apple~CloudDocs/Workspace/mydots/.tmux/vendor/tmux-mem-cpu-load" -I/Users/Jinhong/iCloud/Workspace/mydots/.tmux/vendor/tmux-mem-cpu-load -I/Users/Jinhong/iCloud/Workspace/mydots/.tmux/vendor/tmux-mem-cpu-load/common 
 
